@@ -1,0 +1,284 @@
+.navbar{
+  box-shadow: rgba(50, 50, 93, 0.16) 0px 2px 5px -1px, rgba(0, 0, 0, 0.185) 0px 1px 3px -1px;
+
+}
+.hotline {
+    font-size: 16px;
+    color: #00194c;
+  }
+  .nav-item a{
+  color: #00194c;
+  font-size: 17px;
+  }
+  .nav-icon{
+  color: #00194c;
+  font-size: 22px;
+  }
+/* section-one....... */
+.about-background {
+    position: relative;
+    background-image: url('images/breadcrumb_bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.about-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #03091B;
+    opacity: .85;
+    z-index: 1;
+}
+
+.text-center h1 {
+    color: white; /* Make the "About Us" heading white */
+    z-index: 2; /* Ensure breadcrumb appears above the background */
+    position: relative;
+}
+
+.breadcrumb {
+    color: white; /* Make the breadcrumb text white */
+    z-index: 2; /* Ensure breadcrumb appears above the background */
+    position: relative;
+}
+
+.breadcrumb a {
+    color: white; /* Make breadcrumb links white */
+    z-index: 2; /* Ensure breadcrumb appears above the background */
+    position: relative;
+}
+
+.breadcrumb li{
+    color: white; /* Make breadcrumb links white */
+    z-index: 2; /* Ensure breadcrumb appears above the background */
+    position: relative;
+
+}
+
+.section-one-p{
+color: #0140bf;
+background-color: #e6eeff;
+width: 40%;
+border-radius: 20px;
+
+}
+.section-one-h1{
+color:#00194c;
+font-weight: bold;
+font-size: 40px;
+}
+.growing-icon{
+    color: #00194c;
+    font-size: 43px;
+}
+.finance-icon{
+    color: #00194c;
+    font-size: 43px;
+}
+.section-one-para{
+    color: #00194c;
+    font-size: 0.7em;
+}
+.growing-heading{
+color: #00194c;
+}
+.finance-heading{
+color: #00194c;
+}
+.section-one-inner{
+    width: 280px;
+    height: 250px;
+}
+
+
+
+
+
+
+button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #ffffff;
+    z-index: 1;
+    background: #03227f;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+  
+   .section-three-card {
+    position: relative;
+}
+/* section-three............... */
+.background-team{
+    background-image: url("images/team_bg.jpg");
+}
+.team-social.list-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    border-radius: 0 0 50px 50px;
+    right: 17px;
+    top: 0;
+    padding: 10px 10px;
+    transition: 0.3s linear;
+    opacity: 1; /* Icons visible by default */
+    background-color:#687799;
+    color: #ffffff;
+}
+
+.team-social.list-wrap:hover{
+background-color: #0140bf;
+}
+.team-social.list-wrap a {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    text-decoration: none;
+    color: inherit; /* No color applied */
+}
+
+.team-social.list-wrap a:hover {
+    color: inherit; /* No color change on hover */
+}
+.section-three-p {
+    background-color: #e6eeff;
+    color: #00194c;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;  /* Center horizontally */
+    height: 30px;   /* Set a height to make it visible and center vertically */
+    border-radius: 20px;
+}
+.section-three-h1{
+    color: #00194c;
+    font-weight: bold;
+}
+.section-three-para{
+    color:#00194c;
+}
+
+/* section-four............. */
+
+.testimonial-item-wrap-three {
+    background-size: cover;
+    padding: 50px;
+    color: #000000;
+    text-align: start;
+    position: relative;
+  }
+  
+  .testimonial-active-three {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .testimonial-item-three {
+    min-width: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .testimonial-content-three .rating i {
+    color: #ffd700; /* Star color */
+    margin: 0 2px;
+  }
+  
+  .testimonial-content-three p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-info .title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .section-nine-img{
+    clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+  
+  }  
+
+  /* footer................. */
+.footer {
+    background-color:#051433;
+  }
+  
+  h5 {
+    color: #ffffff; /* Customize heading color */
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  ul.list-unstyled li {
+    margin-bottom: 10px; /* Adds space between menu items */
+  }
+  
+  ul.list-unstyled li a {
+    color: #304ca9;
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    font-size: 1.25rem;
+    /* transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; */
+    background-color: #0026ff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+  
+  }
+  
+  .social-icons a:hover {
+    /* color: #0026ff; Customize the hover color */
+    background-color: #0055ff;
+    transform: scale(1.1); /* Slightly increases the size of the icon on hover */
+    border-radius: 50%;
+  
+  }
+  
+  .social-icons a i {
+    transition: color 0.3s ease-in-out;
+  }
+  

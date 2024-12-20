@@ -1,3 +1,9 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar{
   box-shadow: rgba(50, 50, 93, 0.16) 0px 2px 5px -1px, rgba(0, 0, 0, 0.185) 0px 1px 3px -1px;
 
@@ -72,7 +78,7 @@ border-radius: 20px;
 .section-one-h1{
 color:#00194c;
 font-weight: bold;
-font-size: 40px;
+font-size: 30px;
 }
 .growing-icon{
     color: #00194c;
